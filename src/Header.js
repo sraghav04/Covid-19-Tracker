@@ -9,6 +9,14 @@ function Header() {
   const [countryInfo, setCountryInfo] = useState({});
   //USEEFFECT => Run a piece of code based on a given condition.
   useEffect(() => {
+    fetch("https://disease.sh/v3/covid-19/all")
+      .then((response) => response.json())
+      .then((data) => {
+        setCountryInfo(data);
+      });
+  }, []);
+
+  useEffect(() => {
     // async -> send a request, wait for it, fetch the URL(data), do something with the data.
     const getCountriesData = async () => {
       await fetch("https://disease.sh/v3/covid-19/countries")
