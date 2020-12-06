@@ -3,7 +3,7 @@ import React from "react";
 import "./App.css";
 import Header from "./Header";
 import Map from "./Map";
-import Sidebar from "./Sidebar";
+import Table from "./Table";
 import { Card, CardContent } from "@material-ui/core";
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       </div>
       <Card className="app_right">
         <CardContent>
-          <Sidebar />
+          <Table />
         </CardContent>
       </Card>
     </div>

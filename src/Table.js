@@ -1,8 +1,8 @@
 import React from "react";
 
-function Sidebar() {
+function Table() {
   return (
-    <div className="sidebar">
+    <div className="Table">
       <div className="sidebar_table">
         <h2>Country Case</h2>
       </div>
@@ -13,4 +13,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default Table;
