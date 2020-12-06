@@ -1,0 +1,30 @@
+/* * {
+  margin: 0;
+} */
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 20px;
+}
+.app_left {
+  flex: 0.65;
+  padding: 20px;
+}
+.app_right {
+  flex: 0.35;
+  padding: 20px;
+}
+.app_stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+body {
+  background-color: #f5f6f2;
+}
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
