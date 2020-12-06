@@ -8,11 +8,10 @@
   padding: 20px;
 }
 .app_left {
-  flex: 0.65;
+  flex: 0.9;
   padding: 20px;
 }
 .app_right {
-  flex: 0.35;
   padding: 20px;
 }
 .app_stats {
